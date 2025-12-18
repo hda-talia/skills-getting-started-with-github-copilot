@@ -88,15 +88,37 @@ section h3 {
 }
 
 .activity-participants ul {
-  list-style: disc;
+  list-style: none;
   margin: 0;
-  padding-left: 20px;
+  padding-left: 0;
+  display: block;
 }
 
 .activity-participants li {
   margin-bottom: 6px;
   font-size: 14px;
   color: #444;
+}
+
+/* Participant list layout and delete button */
+.activity-participants li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.delete-participant {
+  background: transparent;
+  border: none;
+  color: #c62828;
+  font-size: 16px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.delete-participant:hover {
+  background-color: rgba(198, 40, 40, 0.08);
 }
 
 /* Empty state for no participants */
