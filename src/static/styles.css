@@ -74,6 +74,38 @@ section h3 {
   margin-bottom: 8px;
 }
 
+/* New: participants styling */
+.activity-participants {
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px dashed #e6e6e6;
+}
+
+.activity-participants h5 {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+.activity-participants ul {
+  list-style: disc;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.activity-participants li {
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #444;
+}
+
+/* Empty state for no participants */
+.activity-participants .empty {
+  font-style: italic;
+  color: #777;
+  font-size: 14px;
+}
+
 .form-group {
   margin-bottom: 15px;
 }
